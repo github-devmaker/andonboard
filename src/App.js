@@ -14,13 +14,13 @@ function App() {
             2AFI7
           </div>
         </div>
-        <div className='bg-black text-8xl grid place-items-center font-semibold'>
+        <div className='bg-black text-8xl grid place-items-center font-semibold text-green-600'>
         RUN
         </div>
         <div>
-        <div className=' flex flex-col h-100'>
-            <div className='flex-1 bg-green-500'>MM-DD-YYYY</div>
-            <div className='flex-1 bg-pink-500'>HH:mm:ss</div>
+        <div className=' flex flex-col h-100 text-4xl font-semibold'>
+            <div className='flex-1 grid place-items-center'>MM-DD-YYYY</div>
+            <div className='flex-1 text-yellow-400 grid place-items-center'>HH:mm:ss</div>
           </div>
         </div>
       </div>
